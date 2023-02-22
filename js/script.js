@@ -9,13 +9,18 @@ function validate() {
         /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (n == null || n == "") {
         alert("Name field is empty");
+        return false;
     } else if (!regn.test(n)) {
         alert("enter valid name");
+        return false;
     } else if (m == null || m == "") {
         alert("Email field is empty");
+        return false;
     } else if (!rege.test(m)) {
         alert("enter valid email");
+        return false;
     } else if (msg == null || msg == "") {
         alert("message field is empty");
+        return false;
     }
 }
