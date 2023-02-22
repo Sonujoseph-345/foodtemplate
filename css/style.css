@@ -1,0 +1,130 @@
+/* Author:Sonu J */
+* {
+    margin: 0;
+    padding: 0;
+}
+.page1 {
+    background-image: url(../images/background/agency-slider-04.jpg);
+    height: 100vh;
+}
+.title {
+    font-size: 70px;
+}
+.page2 {
+    height: 100vh;
+}
+.food {
+    width: 67%;
+}
+.bookatable {
+    background-color: #af7b0b;
+}
+.bookatable:hover {
+    background-color: #d49714;
+}
+.menudiv {
+    background-image: url(../images/background/restaurant-menu-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.menudiv p {
+    font-size: small;
+}
+.menudiv h6 {
+    font-size: small;
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.page5 {
+    height: 100vh;
+}
+.lorem {
+    font-size: small;
+}
+.page7 {
+    background-image: url(../images/background/hero-bg9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.page8 {
+    background-image: url(../images/background/fitness-about-bg.jpg);
+    background-size: cover;
+    min-height: 80vh;
+}
+.overlap1 {
+    background-color: #e9e1d0;
+    margin-left: 20%;
+}
+.lastpage {
+    height: 100vh;
+    background-image: url(../images/background/hero-bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner {
+    height: 100vh;
+}
+.btn {
+    width: fit-content;
+}
+.brown {
+    color: #3d0a04;
+}
+@media screen and (max-width: 576px) {
+    .invisbl {
+        display: none;
+        padding: 0 !important;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .page1 {
+        padding: 0 !important;
+    }
+    .red-div {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .container-fluid {
+        padding: 0 !important;
+    }
+    /* .row > * {
+        padding-right: 0 !important;
+    } */
+    .food {
+        width: 90%;
+        margin-left: 2%;
+    }
+    .page3 {
+        margin-top: 20%;
+    }
+    .menudiv {
+        background-image: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 130vh;
+        width: 100%;
+    }
+    .page6 {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .page7 h2 {
+        width: 90% !important;
+    }
+    .overlap1 {
+        margin-left: 0 !important;
+    }
+    .page8 {
+        padding-left: 0 !important;
+    }
+    .footer1 {
+        display: flex;
+        justify-content: space-around !important;
+    }
+}
