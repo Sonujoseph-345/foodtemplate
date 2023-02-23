@@ -42,6 +42,11 @@
 .page5 {
     height: 100vh;
 }
+.bround {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50% !important;
+}
 .lorem {
     font-size: small;
 }
