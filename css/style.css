@@ -75,6 +75,10 @@
 .brown {
     color: #3d0a04;
 }
+.vfont {
+    font-family: "Sacramento", cursive;
+    font-size: 25px;
+}
 @media screen and (max-width: 576px) {
     .invisbl {
         display: none;
